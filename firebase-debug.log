@@ -1,0 +1,30 @@
+[debug] [2019-10-22T19:04:37.133Z] ----------------------------------------------------------------------
+[debug] [2019-10-22T19:04:37.141Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MacAnthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:my-enye-form
+[debug] [2019-10-22T19:04:37.142Z] CLI Version:   7.6.1
+[debug] [2019-10-22T19:04:37.142Z] Platform:      win32
+[debug] [2019-10-22T19:04:37.142Z] Node Version:  v12.9.1
+[debug] [2019-10-22T19:04:37.145Z] Time:          Tue Oct 22 2019 20:04:37 GMT+0100 (West Africa Standard Time)
+[debug] [2019-10-22T19:04:37.145Z] ----------------------------------------------------------------------
+[debug] [2019-10-22T19:04:37.145Z] 
+[debug] [2019-10-22T19:04:37.190Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-22T19:04:37.193Z] > authorizing via signed-in user
+[debug] [2019-10-22T19:04:37.193Z] [iam] checking project enye-form-be62e for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-22T19:04:37.199Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/enye-form-be62e:testIamPermissions  
+
+[debug] [2019-10-22T19:04:38.671Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-22T19:04:38.678Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/enye-form-be62e  
+ 
+[debug] [2019-10-22T19:04:39.261Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'enye-form-be62e'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/enye-form-be62e/overview
+[debug] [2019-10-22T19:04:39.603Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\MacAnthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:84:36
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+[error] 
+[error] Error: An unexpected error has occurred.
